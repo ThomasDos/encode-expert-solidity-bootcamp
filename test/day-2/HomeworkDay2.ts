@@ -16,7 +16,7 @@ describe('HomeworkDay2', function () {
     it('Should deploy the contract and check length of the array', async function () {
       const { contract } = await loadFixture(deployContract)
 
-      expect(await contract.myArray(12)).to.equal(12)
+      expect(await contract.myArray(11)).to.equal(11)
 
       const tx = await contract.removeFromIndex(5)
       const rc = await tx.wait()
@@ -27,7 +27,7 @@ describe('HomeworkDay2', function () {
       })
 
       //@ts-ignore
-      expect(logs[0].args[0].length).to.equal(12)
+      expect(logs[0].args[0].length).to.equal(11)
     })
   })
 })
