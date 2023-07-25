@@ -1,0 +1,23 @@
+{
+  "name": "encode-expert-solidity-bootcamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "git": "git add . && git cz && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThomasDos/encode-expert-solidity-bootcamp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThomasDos/encode-expert-solidity-bootcamp/issues"
+  },
+  "homepage": "https://github.com/ThomasDos/encode-expert-solidity-bootcamp#readme",
+  "dependencies": {
+    "git-cz": "^4.9.0"
+  }
+}
