@@ -13,7 +13,7 @@
 
 **Using a Fork with Hardhat**
 
-- You can use a fork with `npx hardhat node --fork <key>` command.
+- You can use a fork with `npx hardhat node --fork <key>` command
 - This command allows you to take a real snapshot of the blockchain state and contracts.
 - Useful for simulating communication with other contracts.
 - By specifying the block number to start on, you can access specific states (e.g., state of the Uniswap contract).
